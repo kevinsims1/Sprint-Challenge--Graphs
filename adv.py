@@ -122,6 +122,7 @@ visited.add(world.starting_room.id)
 current_room_id = world.starting_room.id
 num_rooms = len(graph.vertices)
 
+# While visited rooms is less than the actual number of rooms
 while len(visited) < num_rooms:
     # Find the nearest dead end
     moves = bfs(current_room_id, visited)
@@ -164,7 +165,7 @@ else:
 
 
 
-#Hello,
+# Hello,
 
 # I offer excellent communication skills, and have the drive of a race horse. I believe I would be a great candidate for this position, because I simply love to learn, help and grow with others. The projects section of my resume highlights the hours of work I have put in, to build the skills I have. The skills section highlights the exact tools I've used during my learning process, which are aligned with your needs. 
 
